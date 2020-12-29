@@ -5,6 +5,7 @@ body {
   font-family: 'Raleway';
   font-size: 16px;
   line-height: 1.8em;
+  color: #9397AA;
 }
 
 article {
@@ -23,7 +24,7 @@ header, main {
 header {
   padding: 2em 2em 0em 2em;
   text-align: center;
-  color: #509e98;
+  color: #6A9EB6;
 }
 
 header .contact {
@@ -61,11 +62,13 @@ h2 {
 
 h3 {
   text-transform: uppercase;
-  color: #509e98;
+  font-weight: bold;
+  color: #6A9EB6;
 }
 
-h3, h4 {
+h4 {
   font-weight: bold;
+  color: #6A9EB6;
 }
 
 main {
@@ -80,6 +83,10 @@ main section:not(:last-child) {
   text-align: justify;
 }
 
+.education .role {
+  font-weight: bold;
+}
+
 .skills {
   display: flex;
   -ms-flex-wrap: wrap;
@@ -92,13 +99,23 @@ main section:not(:last-child) {
 }
 
 .skills .column ul {
-  list-style-type: none;
+  /* list-style-type: none; */
+  /* list-style-type: circle; */
+  list-style-image: ;
 }
 
 .skills .column ul > li:before {
-  content: "►";
+  /* content: "►"; */
   padding-right: 0.5em;
   color: #509e98;
+}
+
+.project .language {
+  font-weight: bold;
+}
+
+.award .prize {
+  font-weight: bold;
 }
 
 @media only screen and (max-width: 576px) {
